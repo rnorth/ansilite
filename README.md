@@ -16,7 +16,54 @@ Coloured output requires a terminal that supports ANSI escape codes. If the term
 
 ## Usage summary
 
-TODO
+AnsiLite provides a set of simple functions that can be used to apply Ansi colouring. The returned `AnsiLite` objects are can simply be `toString`ed to obtain the Ansi-encoded String form.
+
+For example:
+
+```java
+red("Hello world").toString();
+```
+
+returns `"Hello world"` that, when output to an Ansi-capable terminal, will appear all in red.
+
+In practice `toString()` is rarely necessary - these can instead be used anywhere that automatic string conversion takes place, such as string concatenation or logger placeholders.
+
+The parameters to AnsiLite functions are varargs, and can also be nested:
+
+```java
+red("This", underline("is"), "nested");
+```
+
+will yield the entire string in red, with the word 'is' underlined as well.
+
+The following functions are available for foreground colours:
+
+* `black(...)`
+* `red(...)`
+* `green(...)`
+* `yellow(...)`
+* `blue(...)`
+* `magenta(...)`
+* `cyan(...)`
+* `white(...)`
+
+And background colours:
+
+* `bgBlack(...)`
+* `bgRed(...)`
+* `bgGreen(...)`
+* `bgYellow(...)`
+* `bgBlue(...)`
+* `bgMagenta(...)`
+* `bgCyan(...)`
+* `bgWhite(...)`
+
+And modifiers:
+
+* `underline(...)`
+* `bright(...)`
+* `dim(...)`
+* `reverse(...)`
 
 ## Maven dependency
 
