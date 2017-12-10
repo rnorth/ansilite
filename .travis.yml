@@ -1,0 +1,31 @@
+language: java
+jdk:
+  - oraclejdk8
+
+env:
+  global:
+    - secure: "gWu0PT5XqC9gozvFBXTHfbbjI6f1qCf7YS0yCO+NoAkqx2in27ykGUut1i34dkokd6kplx0BvFN1U7zoHCJzEqUIcFg+rRyz3MY1Na7G4wcWLs1/Q75fkXDJ5N5IAyvRozhaYt3Z8qdsOfhPuEIsXk00TkECxnI+IjTyVg24+snRv5HTZw/Ukv+0ZMIENA86GLRv9c3/tCs8bserykj4g8tgpNFGQi+2WWMrqtV3+vg9DYrZ8KBGgjmdy0cZq1RJX7+oatYcLlNyLXLS4hBOKxPbIAQGClbE+9RVvTJIHxERtxpx610e35GgtGxhHEnGFbJBrfwTEIL6lc1N3MIpMIQO9mS8rsjyQf9WrwihvPEnAUVrNGpvx9b3HghPXZbYL9ugDmQ8/vmd6GcC76tG7i0r3Un3LkV5Id9UiPuM+48Du43QDR0tSOalTXsKAolsMloPOU0aWx1PC8A8Zfhf9cf8M7kYZtOYUSAccPJ3oEjpI3l6S1V7uvNTqkX4M+7yS9PAvTVxmeqEtWo4xlQAQXlgthxyfHNQVlvHXaZEQ1lAV0bgAM+m5bF3GgpdcNkh+FLoCuvRQ2TzKf4b94q94w/sGp9QtmH0KlpBENvbIRWJkoai85CDbLk3w5+XwQQ6whIQ6zqz1ZXhKdkXjuTODA5bW0M/8VzrzYCzq0WbDpU="
+    - # ^^ OSSRH_JIRA_USERNAME
+    - secure: "dg4Uc3yEiVXJoI2q/efr0XJ38oOI/d3AjSBl4jxgDdxJ9ijp50I9AJ24eUmFezkElpcz+FeDqMtuVJ1zxQ09uKDbxmE9Tr22XhjpDuZIBsUJFp1sXvJdXtDEZg+M1NX6f5UqKMGnyZ7QiiW7gRNCuy7Hz+/H6SzclM3CVy7Hckiq6acbSBkQ7mviYoVKjD3VrQ9gE+a6z8nRQONCQ8xtDAr/lwLlOsgsj/g2LXWo0QZ3WLUmc5jiQVIjVp5KkxWJyI+7zhUCdehWrBvF8k3nMnRiRT85T7Zv1HNeid9yTwJ4JLWQvx75beFbAkbiK6AHA0XVXoR5KnX88r8uAWuLkV2K2KP2aNoFh3ZYgRhqvhCPu3llY/A9ZatwI314wgWfE/JusxbknLxYtTTuN73YZEW55HI1PbOgY2mBMeo1z9CKhK7m0KK/DxwuTXdJjHeYxZdNj+oT063iIuiQ9DCELFnzzU+BOCQDbEzZbg+NYPnYi/NWD9/T1NXiqM6x1671rp1SgSCYTm5p+yV8jRBT6Lb1FhW45M6lBCox7RPftn9TuQBsCWXGCow3Gr9xaA5r3QGtBpYqnb+aeDvRanW1zP9tnWRQxMzM8Ehx2X5/za8johY5QppZ6dw5fUnsfYiQeyBph25qaELJ0XsuVHq5gTarQ0lVPlc7v5nm8yfA0m4="
+    - # ^^ OSSRH_JIRA_PASSWORD
+    - secure: "bByWJSjJstjTC1XTH7ptMAVoh9xS3YxQwghkzaSADplP8IU7mG+2aQJVI99Cn4wrUSSZiDdJ4UUU5KLpETetB1McYJhZCP/VC/i9EO9eUs8mu1nW8ArMpjjyoXcr7qmtiDuj47d41BBhtudg0WgevlxHXuRjUjwe0U70NpwrmMSEyo+gdUjSDS0fck5eU5LGG2oTxErcM5Vo+rKhHa4exB5tVJduQvu8Ln+7Cml02l6ffojPULxyWJBFLuvoPxklQDzKby9RlZDgFair3TkiiMVbLJKNudqtWi9BbdYzpuUN33zmk0DUBUVC0+ZxulGzXvPoKneMIRnL2mLBCFndNavMbAnQzIJLEyY3C+p6eD+X1z+c8rqQRqw23STn0aZc+oJHr+nrcSPQpTWHWOcvilo8kSXVItxEAoHj1ErcvdFy/Hako1CF3moLbkGsC1dh1F2VAs+4ZvIvE4CGcMXN3+pV63hKd2bRA2RHnGqO0OtMZUUVfg1pz6YMToL+yEyoRwrYY5O5h1lCr4t+nqHF3vgAF2zJH5lEFL7t0LeQOeYgwnH9KvymBgvQlyEB/LuVCjbEpeaLXUwBHPctiVtsYNfZ6v0Y0AdJxppMQCJqvXPyIOvVacs4eouWjPITCDOFbtWcxU6U8EevnN5ADO6hNJI7paaJGFOFbI21PHa6j5M="
+    - # ^^ GPG_KEY_NAME
+    - secure: "DM4TbNdVsFCwMfl6g1+ArNpDKkIFFOIkgchkg9jN8XCmxFNYqZC+BcCYzHsCltGRtlh3tiSHv/jy0buKLO+0sJ2GfHbAoAtbirZ1In8926rT5B2Cxlt02c6Hw9clPyiajhABYsbaU/ZO0MuPyWsLdIToUvMcTsGKD7NvDZzaHFWfQPc5Q+orpWkADiNZmOhKsKXjng2zV4zlZekKl+bToc8GqA9HlYwq5lWxEFHaFtjwHWUjrTqCbBLB/McuPqTro4CCkZuroOY3kddKAKaWWiMeQwQqBvdYCuv93yFAn0a9btbFgEikiCJ7P6zx7F9/WQIUGc4Jrwxn55y6hM5nuzRmJa7xFE6FjxCpINHmkww4W+tmzM7XDHsAgxyEcpcOn79xd7Ni3A/0F+C1ZXUOMpROSTTnwCSuX9sqpAJtfIjbtAYZmYKkdqaoy5lIZdmKARcpMr7jWYdZ2xmaRX1Q6FjYcirvty2zQUr+7AkZ28XYnBrYzzWsvNS99rHE3X5/GO3ws/Zujc9DA/WnA2awqbFgbd6sEFDY4jvYN9+LoWvK8HeVYhK4JhWTuXgkY4TQdKGDdCr5nOFkXJ+m+BMuRQsNf3pu6zeMk5YPe/DqEq4SdPb3hW+gy0bpFRqLSIhetRHKue5p2T9dlIXlIoT8pI38fMzvHQhcxxspp4J6NkE="
+    - # ^^ GPG_PASSPHRASE
+
+install: ./mvnw install -P !build-extras -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
+script:
+  - ./mvnw -P !build-extras install
+  - pushd gradletest && ./gradlew test && popd
+
+deploy:
+  provider: script
+  script: release/deploy.sh
+  on:
+    tags: true
+    branch: master
+
+cache:
+  directories:
+    - '$HOME/.m2/repository'
